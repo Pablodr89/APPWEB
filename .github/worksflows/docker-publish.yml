@@ -25,4 +25,4 @@ jobs:
         uses: docker/build-push-action@v3
         with:
           push: true
-          tags: Pablodr89/pepito:latest , Pablodr89/pepito:${{github.event.pull_request.title}}
+          tags: pablodr89/pepito:latest , pablodr89/pepito:${{github.event.pull_request.title}}
